@@ -51,11 +51,28 @@
 
     <style name="fab2">
         <item name="colorOnSecondary">#FF0048FF</item>
+        <item name="colorSecondary">#FFFFFFFF</item>
+
         <item name="colorPrimary">#FF0000FF</item>
         <item name="colorPrimaryVariant">#FF0000FF</item>
         <item name="colorOnPrimary">#FF0000FF</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#FFFFFFFF</item>
+
         <item name="colorSecondaryVariant">#FF0000FF</item>
+    </style>
+
+    <style name="fab3">
+        <item name="colorOnSecondary">#1FBF25</item>
+        <item name="colorSecondary">#FFFFFFFF</item>
+    </style>
+
+    <style name="fab4">
+        <item name="colorOnSecondary">#FF3939</item>
+        <item name="colorSecondary">#FFFFFFFF</item>
+    </style>
+
+    <style name="fabV">
+        <item name="colorOnSecondary">#FFFFFFFF</item>
+        <item name="colorSecondary">#FFFFFFFF</item>
     </style>
 </resources>
