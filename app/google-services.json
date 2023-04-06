@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644222318085",
+    "project_id": "freewillpark",
+    "storage_bucket": "freewillpark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644222318085:android:4a9a99e9df32ae6d450e6c",
+        "android_client_info": {
+          "package_name": "com.example.freewillpark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644222318085-lhe6t96l8t0f7aj9kpoi124urq5lehe6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoisTU7nduWphJ3MmpTJnhHol3Anps5Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644222318085-lhe6t96l8t0f7aj9kpoi124urq5lehe6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

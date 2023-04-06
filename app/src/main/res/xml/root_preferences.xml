@@ -1,0 +1,45 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <PreferenceCategory app:title="@string/type">
+
+        <SwitchPreferenceCompat
+            app:key="type"
+            app:defaultValue="false"
+            app:title="@string/sync_title" />
+
+        <SwitchPreferenceCompat
+            app:dependency="type"
+            app:key="velo"
+            app:defaultValue="false"
+            app:title="Pour les vélos" />
+
+        <SwitchPreferenceCompat
+            app:dependency="type"
+            app:key="trot"
+            app:defaultValue="false"
+            app:title="Pour les trottinettes" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Sons et Vibrations">
+
+        <SwitchPreferenceCompat
+            app:key="son"
+            app:defaultValue="false"
+            app:title="Sons" />
+
+        <SeekBarPreference
+            app:dependency="son"
+            app:key="volume"
+            app:defaultValue="false"
+            app:title="Effets Sonores" />
+
+        <SwitchPreferenceCompat
+            app:key="vibration"
+            app:defaultValue="false"
+            app:title="Vibrations" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

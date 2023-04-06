@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/fragment_home"
+    tools:context=".ui.home.HomeFragment">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="0dp"
+        app:elevation="10dp"
+        android:background="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:layout_gravity="top|start"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/menu_logo"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="0dp"
+        app:elevation="10dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@android:drawable/ic_menu_mylocation"
+        android:theme="@style/fab2"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="0dp"
+        app:elevation="10dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@android:color/white"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/ic_map2"
+        android:theme="@style/fab3"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="0dp"
+        app:elevation="10dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@android:color/white"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/ic_walk"
+        android:theme="@style/fab4"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="0dp"
+        app:elevation="10dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#FF3939"
+        android:background="#FF3939"
+        app:srcCompat="@drawable/ic_delete"
+        android:theme="@style/fabDelete"
+        />
+
+    <include
+        layout="@layout/switch_velo"
+        android:id="@+id/switch_velo"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="230dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        />
+
+    <include
+        layout="@layout/switch_trot"
+        android:id="@+id/switch_trot"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="170dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        />
+
+    <include
+        layout="@layout/number_emp"
+        android:id="@+id/number"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="110dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:windowSoftInputMode="adjustPan"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="0dp"
+        app:elevation="10dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#2BD598"
+        android:background="#2BD598"
+        app:srcCompat="@drawable/ic_add"
+        android:theme="@style/fabadd"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
